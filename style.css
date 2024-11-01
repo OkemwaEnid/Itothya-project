@@ -1,0 +1,288 @@
+/* Splash Screen */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgrey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: opacity 0.5s ease;
+  z-index: 10;
+}
+
+.logo {
+  max-width: 500px;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#main-content {
+  display: block;
+  padding: 20px;
+}
+
+/* Home Page */
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  position: relative;
+  height: 70px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  margin-right: 90px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: blue;
+}
+
+.nav-links a:hover {
+  color: red;
+}
+
+.Logo img {
+  width: 140px;
+  height: auto;
+}
+
+.Logo img:hover {
+  transform: scale(1.05);
+}
+
+.head-section {
+  background-image: url(Images/background1.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.head-section h1 {
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.info-page {
+  background-color: #e6efec;
+}
+.company-info {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.about-box h2,
+.offer-box h2,
+.debt-recovery h2 {
+  font-family: sans-serif;
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+  border-left: 5px solid #ff8c00;
+  padding-left: 10px;
+}
+
+.clientele h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+}
+.about-box p {
+  margin: 10px 0;
+  text-indent: 20px;
+  color: #555;
+  font-size: 1.1em;
+}
+
+.offer-box {
+  margin-top: 30px;
+}
+
+.offer-box h2 {
+  margin-top: 20px;
+}
+
+.offer-box ul {
+  margin: 10px 0 10px 20px;
+  color: #555;
+  font-size: 1.1em;
+}
+
+.offer-box ul li {
+  margin-bottom: 8px;
+}
+
+.company-info hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.big-container {
+  background-color: #e6efec;
+}
+
+.Logos {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+*/
+
+
+/* Contact */
+.lead-section {
+  background-image: url(Images/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+.lead-section,
+.about-section h1 {
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.contact-container,
+.about-container {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.info-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Footer */
+
+.footer {
+  background-color: #ff8c00; /* Dark background color */
+  color: black; /* White text color */
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px; /* Adds spacing above footer */
+}
+
+.footer-content p {
+  margin: 0; /* Remove margin for better alignment */
+  font-size: 0.9em;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: #fff; /* White links */
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* About page */
+
+.about-section {
+  background-image: url(Images/moreabout.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  color: #fdb545;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
