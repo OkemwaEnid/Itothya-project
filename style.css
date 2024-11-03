@@ -188,20 +188,6 @@ a {
 
 
 /* Contact */
-.lead-section {
-  background-image: url(Images/contact.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 400px;
-  display: flex;
-  align-items: flex-start;
-  color: white;
-  font-size: 30px;
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: left;
-}
 
 .lead-section h1,
 .about-section h1 {
@@ -292,7 +278,8 @@ icon {
 
 /* About page */
 
-.about-section {
+.about-section,
+.lead-section {
   background-image: url(Images/moreabout.jpg);
   background-size: cover;
   background-position: center;
