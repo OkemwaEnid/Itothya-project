@@ -184,14 +184,13 @@ a {
   border: 2px solid #ccc;
   border-radius: 8px;
 }
-*/
-
 
 /* Contact */
 
 .lead-section h1,
 .about-section h1 {
   margin-top: 150px;
+  margin-left: 80px;
 }
 
 .contact-container,
@@ -287,7 +286,7 @@ icon {
   height: 400px;
   display: flex;
   align-items: center;
-  color: #fdb545;
+  color: white;
   font-size: 30px;
   font-family: sans-serif;
   font-weight: bold;
